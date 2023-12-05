@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+header {
+    background-color: #000dff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #000dff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#contact,
+#education,
+#experience {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#contact ul li::before {
+    content: "\2022";
+    color: #000dff;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.formation {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #000dff;
+    color: white
+}
+
+.contact{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #000dff;
+    color: white;
+}
+
+#education p,
+#experience p {
+    margin: 0;
+}
